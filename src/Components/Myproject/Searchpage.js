@@ -2,7 +2,7 @@ import React, { useState,useEffect } from 'react';
 import axios from 'axios';
 import { CFormInput,CFormTextarea,CButton } from '@coreui/react';
 import "./App.css";
-import {db,storage} from "./firebaseconfig";
+import {db} from "./firebaseconfig";
 import{get,ref} from 'firebase/database';
 
 
@@ -137,6 +137,7 @@ const Searchpage = () => {
 
           <div className='card'>
             <h4>*Tenants ----Means Person Who has/had Stayed in your Homes</h4>
+            <h4>Done onChange</h4> 
             
         
             </div>  

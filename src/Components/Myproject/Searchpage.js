@@ -137,6 +137,7 @@ const Searchpage = () => {
 
           <div className='card'>
             <h4>*Tenants ----Means Person Who has/had Stayed in your Homes</h4>
+            <h4>Done Changes</h4>
         
             </div>  
 
